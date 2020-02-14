@@ -1,0 +1,58 @@
+package lv.anna.employee;
+
+import lv.anna.paysystem.Payee;
+
+public class SalaryEmployee implements Payee {
+	private String name; 
+	private Integer bankAccount;
+	protected Double grossWage;
+	
+	public SalaryEmployee(String name, Integer bankAccount, Double grossWage);
+	this.name = name;
+	this.bankAccount = bankAccount; 
+	this.grossWage = grossWage; 
+	
+	@Override
+	public String name() {
+		// TODO Auto-generated method stub
+		return name;
+	}
+	@Override
+	public Double grossPayment() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public Integer bankAccount() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
+	}
+	@Override
+	public boolean equals(Object arg0) {
+		// TODO Auto-generated method stub
+		return super.equals(arg0);
+	}
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		super.finalize();
+	}
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	} 
+	
+	
+
+}
