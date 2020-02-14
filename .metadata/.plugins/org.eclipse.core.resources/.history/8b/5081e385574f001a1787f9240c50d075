@@ -9,11 +9,6 @@ public class SalaryEmployee implements Payee {
 	
 	
 	
-	public SalaryEmployee(String name, Integer bankAccount, Double grossWage) {
-		this.name = name;
-		this.bankAccount = bankAccount;
-		this.grossWage = grossWage;
-	}
 	@Override
 	public String name() {
 		// TODO Auto-generated method stub
