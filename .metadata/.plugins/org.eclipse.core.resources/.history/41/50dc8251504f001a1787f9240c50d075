@@ -1,0 +1,16 @@
+package lv.anna.paysystem;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PaymentSystem {
+	private List<Payee> payees;
+	
+	//konstruktors
+	public PaymentSystem(){ 
+		payees = new ArrayList<>();
+		
+	}
+	
+
+}

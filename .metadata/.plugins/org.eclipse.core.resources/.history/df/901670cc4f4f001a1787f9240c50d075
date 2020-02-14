@@ -1,0 +1,10 @@
+package lv.anna.paysystem;
+
+import java.util.List;
+
+public class PaymentSystem {
+	private List<Payee> payees;
+	
+	
+
+}
