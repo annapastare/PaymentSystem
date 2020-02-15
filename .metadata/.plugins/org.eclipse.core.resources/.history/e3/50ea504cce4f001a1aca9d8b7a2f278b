@@ -1,0 +1,9 @@
+package lv.anna.employee;
+
+import lv.anna.paysystem.Payee;
+
+public abstract class Employee implements Payee {
+	
+	
+
+}

@@ -1,0 +1,8 @@
+package lv.anna.test;
+
+public class TestPayment {
+	PaymentSystem paymentSystem = new PaymentSystem();
+	
+	
+
+}

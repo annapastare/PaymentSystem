@@ -1,0 +1,31 @@
+package lv.anna.employee;
+
+import lv.anna.paysystem.Payee;
+
+public abstract class Employee implements Payee {
+	private String name; 
+	private Integer bankAccount;
+	
+	protected Double currentBonus;
+	protected Double grossWage;
+	
+	public Employee(String name, Integer bankAccount, Double grossWage) {
+		this.name = name;
+		this.bankAccount = bankAccount;
+		this.grossWage = grossWage;
+	}
+
+	@Override
+	public String name() {
+		return name;
+	}
+
+	@Override
+	public Integer bankAccount() {
+		return bankAccount;
+	}
+	
+	
+	
+
+}

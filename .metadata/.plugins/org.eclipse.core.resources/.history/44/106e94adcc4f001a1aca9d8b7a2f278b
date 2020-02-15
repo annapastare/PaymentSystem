@@ -1,0 +1,10 @@
+package lv.anna.employee;
+
+public class CommissionEmployee {
+	private String name; 
+	private Integer bankAccount;
+	protected Double grossWage;
+	private Double grossComission = 0.0;
+	
+
+}

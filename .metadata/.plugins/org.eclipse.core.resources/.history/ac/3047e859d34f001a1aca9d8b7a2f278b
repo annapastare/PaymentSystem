@@ -1,0 +1,10 @@
+package lv.anna.test;
+
+import lv.anna.paysystem.PaymentSystem;
+
+public class TestPayment {
+	PaymentSystem paymentSystem = new PaymentSystem();
+	
+	
+
+}

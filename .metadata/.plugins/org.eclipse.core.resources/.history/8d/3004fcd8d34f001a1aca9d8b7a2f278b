@@ -1,0 +1,15 @@
+package lv.anna.test;
+
+import lv.anna.employee.CommissionEmployee;
+import lv.anna.paysystem.PaymentSystem;
+
+public class TestPayment {
+	PaymentSystem paymentSystem = new PaymentSystem();
+	
+	CommissionEmployee toms = new CommissionEmployee("Toms Ozolins", 1010101, 5000.5);
+	CommissionEmployee ieva = new CommissionEmployee("TIeva Berzina", 1010102, 5600.5);
+	
+	
+	
+
+}
